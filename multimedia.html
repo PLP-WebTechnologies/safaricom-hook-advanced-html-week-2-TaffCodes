@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matwana Matatu Culture</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #efeaee;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .audio-container {
+            margin: 20px 0;
+        }
+        .video-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            max-width: 1080px;
+            position: relative;
+        }
+        .video-container video {
+            width: 48%; /* Maintain uniform width */
+            height: 300px; /* Set constant height for all videos */
+            object-fit: cover; /* Ensure content fits within the specified dimensions */
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hey Chill Guest, have a glimpse of the KE! </h1>
+    
+    <!-- Audio Element -->
+    <div class="audio-container">
+        <h2>Audio Player</h2>
+        <audio controls>
+            <source src="assets/top_tier_vibez.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    
+    <!-- Video Elements -->
+    <div class="video-container">
+        <!-- Left Video -->
+        <video controls poster="assets/phenomenal_380t.jpeg">
+            <source src="assets/phenomenal_380t_hd.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <!-- Right Video -->
+        <video controls poster="assets/harukaze.jpeg">
+            <source src="assets/harukaze_hd.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </div>
+</body>
+<footer id="footer required" role="contentinfo pull targetted"> 
+    <div class="container">
+        <p> 2024 Matwana Matatu Culture. Made with 🌶 in Nairobi.</p>
+    </div> 
+</footer>
+</html>
